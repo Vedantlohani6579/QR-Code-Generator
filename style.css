@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+
+body {
+    background-color: rgb(11, 154, 211);
+}
+
+.alert {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.message {
+    width: 324px;
+    height: 37px;
+    background-color: white;
+    border-left: 4px solid red;
+    border-radius: 3px;
+    display: flex;
+}
+
+.message i {
+    margin: 10.5px 0 0 20px;
+}
+
+.message p {
+    margin: 11px 0 0 9px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    height: 78vh;
+
+}
+
+.container {
+    width: 280px;
+    height: 439px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px #616161;
+}
+
+.container h3 {
+    margin: 15px 0 0 -72px;
+}
+
+.container p {
+    font-size: small;
+    margin: 8px 0 0 -9px;
+}
+
+.container input {
+    width: 236px;
+    height: 31px;
+    margin-top: 20px;
+    padding-left: 4px;
+}
+
+.container button {
+    width: 119px;
+    height: 33px;
+    margin-top: 16px;
+    border-radius: 17px;
+    background: rgb(11, 154, 211);
+    color: white;
+    border: 2px solid rgb(11, 154, 211);
+    box-shadow: 1px 1px 5px 1px #979797;
+}
+
+.size label {
+    font-size: smaller;
+    font-weight: 700;
+    line-height: 39px;
+    margin-left: -84px;
+}
+
+.size select {
+    width: 76px;
+    height: 23px;
+}
+
+.color {
+    margin-top: -10px;
+}
+
+.color label {
+    font-size: 12.6px;
+    font-weight: 700;
+    line-height: 39px;
+    margin-left: -83px;
+}
+
+.color select {
+    width: 76px;
+    height: 23px;
+}
+
+.code_box {
+    width: 244px;
+    height: 193px;
+    margin-left: 18px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+}
+
+.code_box img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+    box-shadow: 0px 0px 7px -2px #292929;
+    border-radius: 5px;
+}
+
+.copy_rights {
+    width: 100%;
+    text-align: center;
+    font-size: x-small;
+    color: white;
+    padding-bottom: 19px;
+}
